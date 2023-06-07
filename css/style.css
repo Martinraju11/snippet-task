@@ -1,0 +1,115 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+	font-family: 'Roboto', sans-serif;
+	
+}
+@media(min-width:320px){
+	.container{
+		width:96%;
+		margin:auto;
+	}
+	.input-1{
+	width:100%;
+}
+.card h2{
+	padding:15px 0 15px 10px;
+}
+#contact{
+		padding:25px 0;
+}
+}
+
+@media(min-width:620px){
+	.container{
+		width:92%;
+		margin:auto;
+	}
+.input-1{
+	width:50%;
+}
+.card h2{
+	padding:15px 0 15px 10px;
+}
+#contact{
+		padding:30px 0;
+}
+}
+
+@media(min-width:960px){
+	.container{
+		width:85%;
+		margin:auto;
+	}
+	.input-1{
+	width:50%;
+}
+.row{
+	display:flex;
+}
+.col{
+	width:50%;
+	padding:10px;
+}
+.card h2{
+	padding:0 0 15px 10px;
+}
+#contact{
+		padding:85px 0;
+}
+}
+
+#contact{
+	background-image:linear-gradient(#29272770,#3b3b3ba3),url('../images/bg.jpg');
+	background-position:bottom;
+	background-size:cover;
+}
+.head{
+	text-align:center;
+	color:#0a86c3;
+	padding-bottom:15px;
+}
+.icon-flex{
+	display:flex;
+	gap:10px;
+	padding-left:10px;
+}
+
+.details{
+	padding:15px 0 15px 10px;;
+}
+.input-2{
+	width:100%;
+	padding:7px;
+}
+.input-1{
+	padding:7px;
+}
+input{
+	width:100%;
+	padding:10px;
+}
+textarea{
+	width:100%;
+	padding:10px;
+}
+.input-all{
+	display:flex;
+	flex-wrap:wrap;
+}
+.send-button a{
+	text-decoration:none;
+	color:#ffff;
+}
+.send-button{
+	padding:10px 10px;
+	width:50%;
+	display:flex;
+	justify-content:center;
+	background-color:#0a86c3;
+	border:1px solid #0a86c3;
+	border-radius:10px;
+	margin:auto;
+	margin-top:10px;
+}
